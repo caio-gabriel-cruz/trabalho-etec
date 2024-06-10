@@ -34,8 +34,26 @@
             <img src="images/carrinho.png" alt="">
         </div>
     </header>
-
+    
+    
     <section class="publi">
+        <div id="car-aba">
+            <div class="car-tittle">
+                <h2>Seu Carrinho</h2>
+                <p class="fechar">X</p>
+            </div>
+            <div class="item">
+                <div class="item-name">
+                    <p></p>
+                </div>
+                <div><span>R$</span><input class="valor" value="" type="text" disabled></div>
+                <span>QTD:</span><div class="qtd" id="minus">-</div><input class="quantidade" type="number" value="" disabled><div class="qtd" id="plus">+</div>
+            </div>
+            <div class="total">
+                <span>Total:</span><span class="total-valor"></span>
+            </div>
+            <button>comprar</button>
+        </div>
         <img src="images/introducao/alargabrincos-1.jpg" alt="">
         <img src="images/introducao/alargadores-1.webp" alt="">
         <img src="images/introducao/estampados-1.jpg" alt="">
@@ -56,7 +74,7 @@
                     <p>Alargabrinco preto</p>
                     <span>R$</span><input class="valor" value="39.99" type="text" disabled>
                 </div>
-                <button type="button" id="add" onclick="add(this)">Adicionar ao carrinho</button>
+                <button type="button" class="add">Adicionar ao carrinho</button>
             </div>
             <div class="borda">
                 <img class="img" src="images/produtos/produto2.webp" alt="">
@@ -64,7 +82,7 @@
                     <p>Alargador Ametista</p>
                     <span>R$</span><input class="valor" value="24.90" type="text" disabled>
                 </div>
-                <button type="button" id="add" onclick="add(this)">Adicionar ao carrinho</button>
+                <button type="button" class="add">Adicionar ao carrinho</button>
             </div>
             <div class="borda">
                 <img class="img" src="images/produtos/produto3.webp" alt="">
@@ -72,7 +90,7 @@
                     <p>Alargador Preto aberto</p>
                     <span>R$</span><input class="valor" value="55.50" type="text" disabled>
                 </div>
-                <button type="button" id="add" onclick="add(this)">Adicionar ao carrinho</button>
+                <button type="button" class="add">Adicionar ao carrinho</button>
             </div>
             <div class="borda">
                 <img class="img" src="images/produtos/produto4.webp" alt="">
@@ -80,7 +98,7 @@
                     <p>Joia captive 5mm</p>
                     <span>R$</span><input class="valor" value="49.99" type="text" disabled>
                 </div>
-                <button type="button" id="add" onclick="add(this)">Adicionar ao carrinho</button>
+                <button type="button" class="add">Adicionar ao carrinho</button>
             </div>
             <div class="borda">
                 <img class="img" src="images/produtos/produto5.webp" alt="">
@@ -88,7 +106,7 @@
                     <p>Joia Labret 5mm</p>
                     <span>R$</span><input class="valor" value="50.00" type="text" disabled>
                 </div>
-                <button type="button" id="add" onclick="add(this)">Adicionar ao carrinho</button>
+                <button type="button" class="add">Adicionar ao carrinho</button>
             </div>
             <div class="borda">
                 <img class="img" src="images/produtos/produto6.webp" alt="">
@@ -96,7 +114,7 @@
                     <p>Alargador preto</p>
                     <span>R$</span><input class="valor" value="19.99" type="text" disabled>
                 </div>
-                <button type="button" id="add" onclick="add(this)">Adicionar ao carrinho</button>
+                <button type="button" class="add">Adicionar ao carrinho</button>
             </div>
         
             <div id="v">
