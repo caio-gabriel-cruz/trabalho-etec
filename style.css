@@ -78,6 +78,7 @@ header{
 #link-list a{
     color: black;
     border-radius: 8px;
+    margin: 0 1 0px;
 }
 
 #link-list a:hover{
@@ -98,7 +99,7 @@ header{
 }
 
 #car-aba{
-    display: flex;
+    display: none;
     flex-direction: column;
     position: fixed;
     align-items: center;
@@ -270,7 +271,7 @@ a{
     padding: 15px;
     background-color: white;
     position: fixed;
-    top: 85%;
+    top: 80%;
     left: 90%;
     box-shadow: 6px 6px 6px rgb(179, 179, 179);
     cursor: pointer;
@@ -395,4 +396,42 @@ footer div a:hover{
     background-color: white;
     border: 1px solid black;
     padding: 8px 16px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1440px) {
+    header{
+        flex-direction: column;
+    }
+
+    #link-list{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+     #search button{
+        display: none;
+     }
+
+     .img-mobile1{
+        display: none;
+     }
+}
+
+@media screen and (max-width: 1000px) {
+    .img-mobile2{
+        display: none;
+     }
+     #car{
+        left: 80%;
+     }
+}
+
+@media screen and (max-width: 600px) {
+    .img-mobile3{
+        display: none;
+     }
 }
