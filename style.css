@@ -131,7 +131,7 @@ header{
     padding: 4px 8px;
 }
 
-#car-aba p:hover{
+#car-aba .fechar:hover{
     transition: 0.3s;
     background-color: #F58BB8;
 }
@@ -163,13 +163,6 @@ header{
     font-size: 20px;
 }
 
-.quantidade{
-    width: 40px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    text-align: center;
-}
-
 #car-aba .item .qtd{
     width: 15px;
     height: 26px;
@@ -196,7 +189,7 @@ header{
     font-size: 15px;
 }
 
-#car-aba .item .x{
+#car-aba .item .delete{
     width: 15px;
     height: 15px;
     background-color: #F58BB8 ;
@@ -209,7 +202,7 @@ header{
     cursor: pointer;
 }
 
-#car-aba .item .x:hover{
+#car-aba .item .delete:hover{
     transition: 0.3s;
     background-color: #EA74A6;
 }
@@ -435,3 +428,10 @@ footer div a:hover{
         display: none;
      }
 }
+
+/* .item{
+    background-color: red;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+} */
