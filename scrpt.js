@@ -90,7 +90,6 @@ document.querySelectorAll('.add').forEach(button => {
         priceDiv.appendChild(priceInput);
         newItem.appendChild(priceDiv);
 
-
         // Adicionar a nova div completa ao elemento pai
         divCar.appendChild(newItem);
         document.querySelectorAll('.delete').forEach(button => {
